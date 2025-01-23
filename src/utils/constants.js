@@ -11,15 +11,18 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import MovieCreationIcon from '@mui/icons-material/MovieCreation';
+import GamepadIcon from '@mui/icons-material/Gamepad';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'Rwanda', icon: <CodeIcon />, },
+  { name: 'Home', icon: <HomeIcon />, },
+  { name: 'Latest Trends', icon: <TrendingUpIcon /> },
   { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Reels', icon: <OndemandVideoIcon /> },
+  { name: 'Gaming Videos', icon: <SportsEsportsIcon /> },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
